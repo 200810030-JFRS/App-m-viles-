@@ -1,1 +1,10 @@
+OpenJDK* 
+jdk-* 
+Git-* 
+*.exe 
+*.msi 
+*.zip 
+*.aab 
+*.apk 
+*.jar 
 node_modules/ 

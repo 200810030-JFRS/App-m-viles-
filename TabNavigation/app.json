@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Ejercicio_05",
-    "slug": "Ejercicio_05",
+    "name": "TabNavigation",
+    "slug": "TabNavigation",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Billar</string>
+    <string name="game_subtitle">8-BALL POOL CHAMPIONSHIP</string>
+    <string name="stats_title">Estadísticas de Carrera</string>
+    <string name="stat_played">Partidas</string>
+    <string name="stat_wins">Victorias</string>
+    <string name="stat_streak">Racha</string>
+
+    <string name="section_mode">Modo de Juego</string>
+    <string name="mode_cpu">1 Jugador vs CPU</string>
+    <string name="mode_2p">2 Jugadores (Mismo dispositivo)</string>
+    <string name="mode_practice">Práctica Libre</string>
+
+    <string name="section_difficulty">Dificultad de la CPU</string>
+    <string name="diff_easy">Fácil</string>
+    <string name="diff_medium">Normal</string>
+    <string name="diff_hard">Difícil</string>
+
+    <string name="section_felt">Color del Paño</string>
+    <string name="felt_green">Verde Torneo</string>
+    <string name="felt_blue">Azul Pro</string>
+    <string name="felt_red">Rojo Casino</string>
+
+    <string name="btn_play">JUGAR PARTIDA</string>
+    <string name="btn_rules">Reglas de Bola 8</string>
+    <string name="btn_spin">Efecto</string>
+    <string name="btn_restart">Reiniciar</string>
+    <string name="btn_menu">Menú</string>
+    <string name="btn_close">Entendido</string>
+    <string name="btn_reset_spin">Centrar Golpe</string>
+
+    <string name="player_1">Jugador 1</string>
+    <string name="player_2">Jugador 2</string>
+    <string name="player_cpu">CPU</string>
+    <string name="group_open">Mesa abierta</string>
+    <string name="group_solids">Lisas (1-7)</string>
+    <string name="group_stripes">Rayadas (9-15)</string>
+
+    <string name="spin_dialog_title">Efecto en la Bola Blanca</string>
+    <string name="spin_dialog_desc">Toca sobre la bola blanca para ajustar el punto de impacto del taco (arriba = corrido, abajo = retroceso).</string>
+
+    <string name="rules_title">Reglamento Oficial — Bola 8</string>
+    <string name="rules_body">• Objetivo: Emboca todas tus bolas asignadas (Lisas 1-7 o Rayadas 9-15) y finalmente mete la Bola 8 negra en cualquier tronera limpia.\n\n• Mesa Abierta: Tras el saque inicial, la mesa está abierta. El primer jugador que emboque legalmente una bola queda asignado a ese grupo.\n\n• Faltas (Bola en Mano): Ocurren si embocas la bola blanca, no golpeas ninguna bola, o golpeas primero una bola del rival (o la Bola 8 antes de tiempo). El rival podrá colocar la bola blanca donde desee.\n\n• Derrota Inmediata: Si embocas la Bola 8 antes de haber limpiado tu grupo, o si la embocas cometiendo falta en el mismo tiro.\n\n• Controles: Arrastra sobre la mesa para apuntar con la bola fantasma. Tira del taco hacia atrás o desliza la barra derecha de potencia y suelta para disparar.</string>
+</resources>

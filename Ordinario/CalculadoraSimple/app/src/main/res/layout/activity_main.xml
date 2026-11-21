@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora Básica"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/etNumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Primer número"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/etNumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Segundo número"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_marginTop="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnSumar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:text="Sumar (+)" />
+
+        <Button
+            android:id="@+id/btnRestar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="6dp"
+            android:text="Restar (-)" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado: 0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_acelerometro"
+            android:title="1. Acelerómetro" />
+        <item
+            android:id="@+id/nav_podometro"
+            android:title="2. Podómetro" />
+        <item
+            android:id="@+id/nav_giroscopio"
+            android:title="3. Giroscopio" />
+        <item
+            android:id="@+id/nav_camara"
+            android:title="4. Cámara" />
+        <item
+            android:id="@+id/nav_gps"
+            android:title="5. GPS (Ubicación)" />
+        <item
+            android:id="@+id/nav_magnetometro"
+            android:title="6. Magnetómetro" />
+    </group>
+</menu>

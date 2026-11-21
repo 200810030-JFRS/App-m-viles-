@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "CamaraRostroRN",
+    "slug": "camara-rostro-rn",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Permite que $(PRODUCT_NAME) acceda a tu cámara para capturar fotos y detectar rostros."
+        }
+      ]
+    ],
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
+    }
+  }
+}

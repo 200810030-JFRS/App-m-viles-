@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persistencia con Supabase"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnProbarConexion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Comprobar Conexión a Supabase" />
+
+        <TextView
+            android:id="@+id/tvEstadoConexion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estado: Sin verificar"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:background="#EEEEEE"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrar Producto"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Producto"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción"
+            android:inputType="text"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnGuardarProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="2. Guardar en Tabla 'productos'" />
+
+        <Button
+            android:id="@+id/btnCargarProductos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="3. Consultar Productos" />
+
+        <TextView
+            android:id="@+id/tvListaProductos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Aquí aparecerán los productos..."
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

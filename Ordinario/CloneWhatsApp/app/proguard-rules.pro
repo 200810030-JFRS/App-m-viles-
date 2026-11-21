@@ -1,0 +1,3 @@
+-keep class com.example.clonewhatsapp.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*

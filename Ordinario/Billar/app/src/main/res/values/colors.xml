@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#0B1218</color>
+    <color name="surface_card">#15202B</color>
+    <color name="surface_elevated">#1E2D3D</color>
+    <color name="emerald_primary">#10B981</color>
+    <color name="emerald_dark">#047857</color>
+    <color name="gold_accent">#F59E0B</color>
+    <color name="red_danger">#EF4444</color>
+    <color name="text_primary">#F8FAFC</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="stroke_subtle">#2A3B4D</color>
+    <color name="felt_green_icon">#0E6B3B</color>
+</resources>

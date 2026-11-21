@@ -1,0 +1,5 @@
+com.example.billar.test.app-core-1.6.1-0 C:\Users\rrodr\.gradle\caches\8.9\transforms\12d4ceea12d68d94d028487ee64e9ffc\transformed\core-1.6.1\res
+com.example.billar.test.app-androidTest-1 C:\Users\rrodr\OneDrive\Documentos\Ordinario\Billar\app\build\generated\res\resValues\androidTest\debug
+com.example.billar.test.app-mergeDebugAndroidTestResources-2 C:\Users\rrodr\OneDrive\Documentos\Ordinario\Billar\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.billar.test.app-mergeDebugAndroidTestResources-3 C:\Users\rrodr\OneDrive\Documentos\Ordinario\Billar\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.billar.test.app-debugAndroidTest-4 C:\Users\rrodr\OneDrive\Documentos\Ordinario\Billar\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

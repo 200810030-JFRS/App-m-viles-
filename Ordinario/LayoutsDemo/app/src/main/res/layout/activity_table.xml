@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:padding="16dp">
+
+    <!-- Fila 1 -->
+    <TableRow android:layout_marginBottom="12dp">
+        <TextView
+            android:text="Usuario: "
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <EditText
+            android:hint="Ingrese su nombre"
+            android:inputType="text" />
+    </TableRow>
+
+    <!-- Fila 2 -->
+    <TableRow android:layout_marginBottom="12dp">
+        <TextView
+            android:text="Contraseña: "
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <EditText
+            android:hint="Ingrese su clave"
+            android:inputType="textPassword" />
+    </TableRow>
+
+    <!-- Fila 3 -->
+    <TableRow>
+        <Button
+            android:text="Cancelar" />
+        <Button
+            android:text="Enviar" />
+    </TableRow>
+
+</TableLayout>

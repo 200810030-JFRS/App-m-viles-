@@ -1,0 +1,4 @@
+# Copia este archivo como local.properties (o agrega estas lineas a tu local.properties existente)
+# Gradle inyectara estas credenciales de forma segura en BuildConfig (Fase 12)
+SUPABASE_URL=https://kjpzaxgeicreidwuazam.supabase.co
+SUPABASE_KEY=PEGA_AQUI_TU_PUBLISHABLE_KEY

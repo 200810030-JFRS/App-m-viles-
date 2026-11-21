@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CloneWhatsapp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/whatsapp_green</item>
+        <item name="colorPrimaryVariant">@color/whatsapp_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/whatsapp_teal</item>
+    </style>
+</resources>
